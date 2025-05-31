@@ -65,7 +65,7 @@
                 "Atendwa\\Seedtrack\\Providers\\SeedtrackServiceProvider"
             ],
             "aliases": {
-                "SeedTrack": "Atendwa\\Seedtrack\\Facades\\Seedtrack"
+                "Seedtrack": "Atendwa\\Seedtrack\\Facades\\Seedtrack"
             }
         }
     },
