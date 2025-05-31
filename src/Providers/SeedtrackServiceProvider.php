@@ -23,7 +23,7 @@ class SeedtrackServiceProvider extends ServiceProvider
             $this->commands(DiscoverSeeders::class);
 
             $this->publishes(
-                [__DIR__ . '/../../database/migrations' => database_path('migrations')], 'migrations'
+                [__DIR__.'/../../database/migrations' => database_path('migrations')], 'migrations'
             );
         }
     }
