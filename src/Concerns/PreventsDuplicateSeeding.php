@@ -14,13 +14,15 @@ trait PreventsDuplicateSeeding
      */
     public function run(): void
     {
-        if (Seeder::query()->where('seeder', static::class)->exists()) {
+        $force = $this->command->option('force');
+
+        if (Seeder::query()->where('seeder', static::class)->exists() && ! $force) {
             return;
         }
 
         $this->execute();
 
-        Seeder::query()->create(['seeder' => static::class]);
+        Seeder::query()->updateOrCreate(['seeder' => static::class]);
     }
 
     abstract protected function execute(): void;
