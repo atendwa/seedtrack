@@ -62,7 +62,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Atendwa\\Seedtrack\\SeedtrackServiceProvider"
+                "Atendwa\\Seedtrack\\Providers\\SeedtrackServiceProvider"
             ],
             "aliases": {
                 "SeedTrack": "Atendwa\\Seedtrack\\Facades\\Seedtrack"
