@@ -2,6 +2,10 @@
 
 All notable changes to `seedtrack` will be documented in this file.
 
+## 1.0.7 - 2025-10-30
+
+**Full Changelog**: https://github.com/atendwa/seedtrack/compare/1.0.6...1.0.7
+
 ## 1.0.6 - 2025-10-30
 
 ### What's Changed
