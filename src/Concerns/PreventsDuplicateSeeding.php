@@ -14,9 +14,9 @@ trait PreventsDuplicateSeeding
      */
     public function run(): void
     {
-//        $force = $this->command->option('force');
+        //        $force = $this->command->option('force');
 
-//        if (Seeder::query()->where('seeder', static::class)->exists() && ! $force) {
+        //        if (Seeder::query()->where('seeder', static::class)->exists() && ! $force) {
         if (Seeder::query()->where('seeder', static::class)->exists()) {
             return;
         }
