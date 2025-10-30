@@ -16,6 +16,7 @@ trait PreventsDuplicateSeeding
     {
 //        $force = $this->command->option('force');
 
+
 //        if (Seeder::query()->where('seeder', static::class)->exists() && ! $force) {
         if (Seeder::query()->where('seeder', static::class)->exists()) {
             return;
