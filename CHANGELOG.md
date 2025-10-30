@@ -2,6 +2,22 @@
 
 All notable changes to `seedtrack` will be documented in this file.
 
+## 1.0.7 - 2025-10-30
+
+**Full Changelog**: https://github.com/atendwa/seedtrack/compare/1.0.6...1.0.7
+
+## 1.0.6 - 2025-10-30
+
+### What's Changed
+
+* chore(deps): bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/atendwa/seedtrack/pull/2
+
+### New Contributors
+
+* @dependabot[bot] made their first contribution in https://github.com/atendwa/seedtrack/pull/2
+
+**Full Changelog**: https://github.com/atendwa/seedtrack/compare/1.0.5...1.0.6
+
 ## 1.0.5 - 2025-05-31
 
 **Full Changelog**: https://github.com/atendwa/seedtrack/compare/1.0.4...1.0.5
